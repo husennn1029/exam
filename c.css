@@ -1,0 +1,80 @@
+body{
+    width:200px;
+    height:200px;
+    position: relative;
+    background-image:  url("./photo1704792458.jpeg");
+ background-repeat: repeat-y;
+ background-size: 150px ;
+ 
+}
+.box{
+    width: 1700px;
+    height: 800px;
+    border-top: 5px solid green;
+    border-left: 5px dotted rgb(255, 0, 0);
+    border-right: 5px dashed rgb(230, 0, 255);
+    border-bottom: 5px double rgb(236, 10, 172);
+    border-radius: 20px;
+    position: relative;
+    left: 130px;
+    top: 50px;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(25% 0%, 35% 0, 100% 50%, 37% 100%, 25% 100%, 88% 50%);
+   background-color: black;
+   position: relative;
+   left: 400px;
+   top: 20px;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(63% 0, 75% 0%, 11% 49%, 75% 100%, 62% 100%, 0% 50%);
+   background-color: black;
+   position: relative;
+   left: 50px;
+   bottom: 180px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    bottom:380px;
+    left: 220px;
+}
+.box4{
+    width: 600px;
+    height: 200px;
+    border: 5px dashed purple;
+    position: relative;
+    left: 610px;
+    bottom:550px;
+    vertical-align: middle;
+
+}
+.b1{
+    width: 100px;
+    height: 100px;
+    vertical-align:middle;
+    background-color: red;
+    position: relative;
+    display: inline-block;
+}
+.b2{
+    width: 100px;
+    height: 200px;
+    vertical-align: middle;
+    background-color: rgb(23, 45, 14);
+    position: relative;
+    display: inline-block;
+}
+.b3{
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    background-color: rgb(32, 8, 245);
+    position: relative;
+    display: inline-block;
+}
